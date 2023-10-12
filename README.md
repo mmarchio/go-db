@@ -5,11 +5,11 @@ Anotation based ORM
 
 Annotations supported:
  * column
-  * the name of the column of the struct member.
-   * usage: column:"id"
+     * the name of the column of the struct member.
+         * usage: column:"id"
  
  * datatype
-  * the sql datatype or named datatype of the struct member
+ * the sql datatype or named datatype of the struct member
    * usage: datatype:"uuid.UUID" or datatype:"string"
  
  * primaryKey
